@@ -17,6 +17,7 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     answer = nil
+    
     while answer != 'exit'
       answer = gets
     end  
@@ -74,8 +75,6 @@ class MusicLibraryController
       end  
     end
     
-    def CLI_commands
-    self.list_songs
-    end
+  
 end
 
