@@ -21,6 +21,7 @@ class MusicLibraryController
     
       answer = gets
       case answer
+       when 
     end  
   end
   
