@@ -21,7 +21,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     
     case answer
-       when 'list_songs'
+       when 'list songs'
          self.list_songs
     end  
      answer = gets 
