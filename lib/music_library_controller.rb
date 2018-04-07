@@ -74,6 +74,8 @@ class MusicLibraryController
       end  
     end
     
+    def CLI_commands
     self.list_songs
+    end
 end
 
