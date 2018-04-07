@@ -23,8 +23,9 @@ class MusicLibraryController
     case answer
        when 'list_songs'
          self.list_songs
-      end  
+    end  
      answer = gets 
+    end   
   end
   
   def list_songs
