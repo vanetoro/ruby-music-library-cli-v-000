@@ -23,6 +23,10 @@ class MusicLibraryController
     case answer
        when 'list songs'
          self.list_songs
+       when 'list artist'
+         self.list_artists
+       when 'list genre'   
+         self.list_genres
     end  
      answer = gets 
     end   
