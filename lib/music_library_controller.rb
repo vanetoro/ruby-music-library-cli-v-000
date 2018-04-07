@@ -23,7 +23,7 @@ class MusicLibraryController
     case answer
        when 'list songs'
          self.list_songs
-       when 'list artist'
+       when 'list artists'
          self.list_artists
        when 'list genre'   
          self.list_genres
