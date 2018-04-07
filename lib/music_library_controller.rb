@@ -16,7 +16,12 @@ class MusicLibraryController
     puts "To play a song, enter 'play song'."
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
+    answer = nil
+    while answer != 'exit'
       answer = gets
+    end
+    
+    answer = gets
       case answer
        when 'list_songs'
          self.list_songs
