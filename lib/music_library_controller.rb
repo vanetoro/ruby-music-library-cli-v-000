@@ -18,8 +18,9 @@ class MusicLibraryController
     puts "What would you like to do?"
     answer = nil
     
-    while answer != 'exit'
+    
       answer = gets
+      
     end  
   end
   
