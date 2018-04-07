@@ -66,15 +66,13 @@ class MusicLibraryController
     
     def play_song
       puts "Which song number would you like to play?"
-      self.list_songs
       answer = gets
-      # binding.pry
-      if self.list_songs.find{|song| song == answer} != nil
-        binding.pry
-       puts answer
-     else
-       answer = gets
-      end
+      song_array = Song.all.sort_by { |song| song.name }
+      if  answer.to_i - 1  > -1 && song_array[answer.to_i - 1] != nil
+        song = song_array[answer.to_i - 1]
+        puts "Playing #{song.name} by #{song.artist.name}"
+      end  
     end
+    
 end
 
