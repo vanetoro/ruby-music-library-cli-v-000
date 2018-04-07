@@ -24,6 +24,7 @@ class MusicLibraryController
        when 'list_songs'
          self.list_songs
       end  
+     answer = gets 
   end
   
   def list_songs
