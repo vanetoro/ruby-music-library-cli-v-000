@@ -20,7 +20,7 @@ class MusicLibraryController
     
     
       answer = gets
-      
+      case answer
     end  
   end
   
